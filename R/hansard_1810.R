@@ -1,4 +1,5 @@
 #' The 19th-century British Parliamentary debates for the decade 1810
+#'
 #' Hansard corpus data for the decade 1800. To also access information about speaker, date, and debate title, join this data frame with debate_metadata on
 #' sentence_id. The variables are as follows:
 #'
@@ -19,7 +20,7 @@
 #' @examples
 #' data(hansard_1810)
 #'
-#' @references Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo (2021) 
+#' @references Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo (2021)
 #' (\href{https://doi.org/10.7910/DVN/ZCYJH8})
 #'
 #' @source \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
