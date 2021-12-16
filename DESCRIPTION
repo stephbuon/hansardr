@@ -1,12 +1,19 @@
 Package: hansardr
-Title: What the Package Does (One Line, Title Case)
+Title: Import the Hansard 19th-Century British Parliamentary Debates
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Steph", "Buongiorno", "steph.buon@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6965-0787"))
+    person("Jo", "Guldi", role = "aut"),
+           comment = c(ORCID = ""))
+Depends: R (>= 3.1.0)
+URL: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FZCYJH8&version=DRAFT
+BugReports: https://github.com/stephbuon/hansardr
+Description: hansardr supplies data subsets of the 19th-century British Parliamentary debates, also known as Hansard. 
+The data was scrapped from UK Parliament's historic Hansard API (https://api.parliament.uk/historic-hansard/volumes/index.html) 
+and underwent corrections for systemic issues which had caused some debates to be marked as "missing" from the corpus. 
+Speaker names were disambiguated using distance measurements. 
+License: use_mit_license()
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
