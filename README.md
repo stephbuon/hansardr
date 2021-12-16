@@ -15,7 +15,4 @@ The `hansardr` package offers the full corpus, debate metadata, and file metadat
 
 ### Citation
 
-Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo, 2021, "SMU 
-  19th-Century Hansard Corpus with Improved Speaker Names", 
-  https://doi.org/10.7910/DVN/ZCYJH8, Harvard Dataverse, 
-  UNF:6:G2gAjg3KjqxHfTp6Wkjyqg== 
+Buongiorno, Steph, 2021, hansardr Available: https://github.com/stephbuon/hansardr.
