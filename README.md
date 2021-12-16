@@ -15,4 +15,4 @@ The `hansardr` package offers the full corpus, debate metadata, and file metadat
 
 ### Citation
 
-Buongiorno, Steph, 2021, hansardr Available: https://github.com/stephbuon/hansardr.
+Buongiorno, Steph, 2021, _hansardr_. Available: https://github.com/stephbuon/hansardr.
