@@ -33,10 +33,10 @@
 #' @examples
 #' data(file_metadata_1800)
 #'
-#' @references Buongiorno, Steph, kalescky, Rob, Godat, Eric, Cerpa, Omar Alexander, and Guldi, Jo (2021) doi:10.7910/DVN/ZCYJH8
-#' (\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse})
+#' @references Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo (2021) 
+#' (\href{https://doi.org/10.7910/DVN/ZCYJH8})
 #'
-#' @source \href{https://phenome.jax.org/projects/Moore1b}{Harvard Dataverse}
+#' @source \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
 #'
 "file_metadata_1800"
 

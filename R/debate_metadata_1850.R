@@ -7,10 +7,13 @@
 #'
 #' @usage debate_metadata_1850
 #'
-#' @format A data frame with 985755 rows and 4 variables:
+#' @format A data frame with 985755 rows and 5 variables:
 #'
 #' sentence_id
 #' A unique ID assigned to each sentence of the corpus, taken from the digitized parliamentary debates.
+#'
+#' speechdate
+#' The date on which the sentence was spoken in year, month, day format.
 #'
 #' debate
 #' The title of the debate.
@@ -26,10 +29,10 @@
 #' @examples
 #' data(debate_metadata_1850)
 #'
-#' @references Moore et al. (2013) Genetics 195:1077-1086
-#' (\href{https://www.ncbi.nlm.nih.gov/pubmed/23979570}{PubMed})
+#' @references Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo (2021) 
+#' (\href{https://doi.org/10.7910/DVN/ZCYJH8})
 #'
-#' @source \href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
+#' @source \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
 #'
 "debate_metadata_1850"
 
