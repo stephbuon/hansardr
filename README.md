@@ -14,7 +14,6 @@ Data files can loaded into the R environment using the familiar `data()` functio
 ```
 data("hansard_1880")
 data("debate_metadata_1880")
-
 ```
 Each table can be joined on the `sentence_id` field, a unique ID assigned to each sentence of the Hansard debates. 
 
