@@ -26,7 +26,7 @@ src_column
 The column of the sentence, taken from the digitized parliamentary debates.
 }
 \source{
-\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
+\\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
 }
 \usage{
 file_metadata_1800
@@ -42,6 +42,6 @@ data(file_metadata_1800)
 }
 \references{
 Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo (2021)
-(\href{https://doi.org/10.7910/DVN/ZCYJH8})
+(\\href{https://doi.org/10.7910/DVN/ZCYJH8})
 }
 \keyword{datasets}
