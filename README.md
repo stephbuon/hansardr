@@ -53,6 +53,14 @@ Tables can be bound by row using `rbind()` from base R, or `bind_rows()` from th
 hansard_df_1850_through_1860 <- rbind(hansard_1850, hansard_1860)
 ```
 
+or 
+
+```
+library(tidyverse)
+
+hansard_df_1850_through_1860 <- bind_rows(hansard_1850, hansard_1860)
+```
+
 
 ### Citation
 
