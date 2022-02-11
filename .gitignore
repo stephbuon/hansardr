@@ -1,1 +1,4 @@
 .Rproj.user
+
+uncompressed_RDS_files/
+generate_and_compress_data.R
