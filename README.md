@@ -63,6 +63,8 @@ library(tidyverse)
 hansard_df_1850_through_1860 <- bind_rows(hansard_1850, hansard_1860)
 ```
 
+## Report a Problem
+This is the first analysis-ready c19 Hansard corpus with disambiguated speaker names. As described [in our study](), we use mixed methods (algorithmic and qualitative) to disambiguate speaker names, and we arrive at about an ~85% disambiguation rate. If, while using our data set, you find a reason to critique our disambiguated speaker names field, we would appreciate you sharing this with us! You can write an [issue](https://github.com/stephbuon/hansard-speakers/issues) on our [hansard-speakers](https://github.com/stephbuon/hansard-speakers) repository. 
 
 ### Citation
 
