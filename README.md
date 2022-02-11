@@ -4,7 +4,7 @@
 
 The _SMU 19th-Century Hansard Corpus with Improved Speaker Names_ is a clean corpus of the 19th-century British Parliamentary Debates (1803-1909), also known as Hansard. This corpus identifies debates whose records are missing from UK Parliament’s corpus, and it also offers a field for disambiguated speakers. We believe these improvements will enable researchers to analyze the Hansard debates, including speaker discourse, in a way that has not been accessible before. 
 
-For supplementary materials meant to support the analysis of the Hansard debates, including tokens and their raw counts, bigrams and their raw counts, special vocabulary, speaker metadata, and topics from LDA topic modeling, see [our full data set hosted on the Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8). 
+For supplementary materials meant to support the analysis of the Hansard debates, including tokens and their raw counts, bigrams and their raw counts, special vocabulary, speaker metadata, and topics from LDA topic modeling, see our [full data set](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8) hosted on the Harvard Dataverse.
 
 ## To install from GitHub
 ```
@@ -53,6 +53,16 @@ Tables can be bound by row using `rbind()` from base R, or `bind_rows()` from th
 hansard_df_1850_through_1860 <- rbind(hansard_1850, hansard_1860)
 ```
 
+or 
+
+```
+library(tidyverse)
+
+hansard_df_1850_through_1860 <- bind_rows(hansard_1850, hansard_1860)
+```
+
+## Report a Problem
+This is the first analysis-ready c19 Hansard corpus with disambiguated speaker names. As described [in our study](), we use mixed methods (algorithmic and qualitative) to disambiguate speaker names, and we arrive at about an ~85% disambiguation rate. If, while using our data set, you find a reason to critique our disambiguated speaker names field, we would appreciate you sharing this with us! You can write an [issue](https://github.com/stephbuon/hansard-speakers/issues) on our [hansard-speakers](https://github.com/stephbuon/hansard-speakers) repository. 
 
 ### Citation
 
