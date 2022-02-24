@@ -23,8 +23,8 @@ library(hansardr)
 | Label  | Description | Key |
 | ------------- | ------------- | ------------- |
 | `hansard_YYYY`  | Hansard debate text | `sentence_id` |
-| `debate_metadata_YYYY`  | Hansard debate metadata such as speechdate, speaker, and title | `sentence_id`  |
-| `file_metadata_YYYY`  | Metadata about the Hansard Corpus files | `sentence_id`  |
+| `debate_metadata_YYYY`  | Hansard debate metadata such as speechdate, speaker, and title. | `sentence_id`  |
+| `file_metadata_YYYY`  | Corpus metadata such as IDs for speech, source file, column, and more. | `sentence_id`  |
 
 Example:
 ```
