@@ -18,7 +18,7 @@ library(hansardr)
 
 ## Contents
 
-`hansardr` data is separated by decade. Each decades has three types of data, labeled: "hansard," "debate_metadata," and "file_metadata" for each decade of the Hansard corpus. In the following table, "YYYY" stands in for any given decade.
+`hansardr` data is separated by decade. Each decades has three types of data, labeled: "hansard," "debate_metadata," and "file_metadata." In the following table, "YYYY" stands in for any given decade.
 
 | Label  | Description | Key |
 | ------------- | ------------- | ------------- |
