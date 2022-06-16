@@ -14,7 +14,7 @@ text
 A sentence spoken by a member of parliament.
 }
 \source{
-\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
+\\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
 }
 \usage{
 hansard_1810
@@ -29,6 +29,6 @@ data(hansard_1810)
 }
 \references{
 Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo (2021)
-(\href{https://doi.org/10.7910/DVN/ZCYJH8})
+(\\href{https://doi.org/10.7910/DVN/ZCYJH8})
 }
 \keyword{datasets}
