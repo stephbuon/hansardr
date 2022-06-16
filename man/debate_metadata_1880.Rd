@@ -23,7 +23,7 @@ disambig_speaker
 The disambiguated name of the person who spoke the sentence.
 }
 \source{
-\\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
+\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
 }
 \usage{
 debate_metadata_1880
@@ -38,6 +38,6 @@ data(debate_metadata_1880)
 }
 \references{
 Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo (2021)
-(\\href{https://doi.org/10.7910/DVN/ZCYJH8})
+(\href{https://doi.org/10.7910/DVN/ZCYJH8})
 }
 \keyword{datasets}
