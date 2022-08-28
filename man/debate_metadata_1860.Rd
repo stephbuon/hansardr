@@ -15,12 +15,6 @@ The date on which the sentence was spoken in year, month, day format.
 
 debate
 The title of the debate.
-
-speaker
-The recorded name of the person who spoke the sentence.
-
-disambig_speaker
-The disambiguated name of the person who spoke the sentence.
 }
 \source{
 \\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
@@ -29,7 +23,7 @@ The disambiguated name of the person who spoke the sentence.
 debate_metadata_1860
 }
 \description{
-The Hansard corpus debate metadata retains information about the debates such as the debate name and the speaker.
+The Hansard corpus debate metadata retains information about the debates such as the debate title and the speech date.
 The variables are as follows:
 }
 \examples{

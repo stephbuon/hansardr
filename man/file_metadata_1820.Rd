@@ -26,9 +26,9 @@ src_column
 The column of the sentence, taken from the digitized parliamentary debates.
 }
 \source{
-\\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
+\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
 }
-\usage{
+\\usage{
 file_metadata_1820
 }
 \description{

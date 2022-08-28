@@ -1,13 +1,13 @@
 #' The 19th-century British Parliamentary debates metadata for the decade 1800
 #'
-#' The Hansard corpus debate metadata retains information about the debates such as the debate name and the speaker.
+#' The Hansard corpus debate metadata retains information about the debates such as the debate title and the speech date.
 #' The variables are as follows:
 #'
 #' @docType data
 #'
 #' @usage debate_metadata_1800
 #'
-#' @format A data frame with 82306 rows and 5 variables:
+#' @format A data frame with 82306 rows and 3 variables:
 #'
 #' sentence_id
 #' A unique ID assigned to each sentence of the corpus, taken from the digitized parliamentary debates.
@@ -17,12 +17,6 @@
 #'
 #' debate
 #' The title of the debate.
-#'
-#' speaker
-#' The recorded name of the person who spoke the sentence.
-#'
-#' disambig_speaker
-#' The disambiguated name of the person who spoke the sentence.
 #'
 #' @keywords datasets
 #'
