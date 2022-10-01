@@ -4,8 +4,6 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Steph", "Buongiorno", , "steph.buon@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-6965-0787"))
-Depends: 
-    curl
 URL: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FZCYJH8&version=DRAFT
 BugReports: https://github.com/stephbuon/hansardr
 Description: hansardr supplies data subsets of the 19th-century British Parliamentary debates, also known as Hansard. 
