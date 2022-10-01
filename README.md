@@ -44,7 +44,7 @@ The Hansard corpus is subsetted by decade. Each decade has four types of data, l
 
 ## Usage
 
-Data files can loaded into the R environment using the `data()` function:
+Use `data()` to load files into the R environment.
 
 ```
 data("hansard_1880")
