@@ -6,7 +6,16 @@ This is a clean corpus of the 19th-century British Parliamentary Debates (1803-1
 
 For supplementary materials meant to support the analysis of the Hansard debates, including tokens and their raw counts, bigrams and their raw counts, special vocabulary, speaker metadata, and topics from LDA topic modeling, see our [full data set](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8) hosted on the Harvard Dataverse.
 
-## To install from GitHub
+## Installation
+
+### Install from CRAN:
+
+```
+install.packages("hansardr")
+```
+
+### Install from GitHub:
+
 ```
 require(devtools)
 install_github("stephbuon/hansardr")
