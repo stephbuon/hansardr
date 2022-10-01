@@ -9,5 +9,5 @@
 
       zip_file <- paste0(hansardr_path, "data.zip")
       unzip(zip_file, exdir = paste0(hansardr_path, "data"))
-      file.remove(zip_file, "data.zip")) }
+      file.remove(zip_file, "data.zip") }
   }
