@@ -3,6 +3,7 @@
 hansardr.Rproj
 
 # directories
+man_correct_href
 uncompressed_RDS_files/
 generate_and_compress_data.R
 data/
