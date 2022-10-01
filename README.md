@@ -27,7 +27,7 @@ library(hansardr)
 
 ## Contents
 
-`hansardr` data is subsetted by decade. Each decade has four types of data, labeled: "hansard," "debate_metadata," "speaker_metadata," and "file_metadata." In the following table, "YYYY" stands in for any given decade.
+The Hansard corpus is subsetted by decade. Each decade has four types of data, labeled: "hansard," "debate_metadata," "speaker_metadata," and "file_metadata." In the following table, "YYYY" stands in for any given decade.
 
 | Label  | Description | Key |
 | ------------- | ------------- | ------------- |
@@ -35,12 +35,12 @@ library(hansardr)
 | `debate_metadata_YYYY`  | Hansard debate metadata such as speechdate and title. | `sentence_id`  |
 | `speaker_metadata_YYYY`  | Original speaker name, disambiguated speaker name, and more. | `sentence_id`  |
 | `file_metadata_YYYY`  | Corpus metadata such as IDs for speech, source file, column, and more. | `sentence_id`  |
-| `events` | Manually selected list of events and their years | `N/A` |
 
-Example:
-```
-"hansard_1880"
-```
+ We also provide keywords lists that were used in scholarly research.
+ 
+| Label  | Description |
+| ------------- | ------------- |
+| `events` | Manually selected list of events and their years |
 
 ## Usage
 
