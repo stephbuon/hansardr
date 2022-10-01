@@ -20,14 +20,14 @@ install.packages("hansardr")
 require(devtools)
 install_github("stephbuon/hansardr")
 ```
-After installation, the package can be imported as usual:
+Now the package can be imported as usual:
 ```
 library(hansardr)
 ```
 
 ## Contents
 
-`hansardr` data is separated by decade. Each decades has three types of data, labeled: "hansard," "debate_metadata," and "file_metadata." In the following table, "YYYY" stands in for any given decade.
+`hansardr` data is subsetted by decade. Each decade has four types of data, labeled: "hansard," "debate_metadata," "speaker_metadata," and "file_metadata." In the following table, "YYYY" stands in for any given decade.
 
 | Label  | Description | Key |
 | ------------- | ------------- | ------------- |
@@ -44,7 +44,7 @@ Example:
 
 ## Usage
 
-Data files can loaded into the R environment using the familiar `data()` function:
+Data files can loaded into the R environment using the `data()` function:
 
 ```
 data("hansard_1880")
@@ -74,7 +74,7 @@ hansard_df_1850_through_1860 <- bind_rows(hansard_1850, hansard_1860)
 ```
 
 ## Report a Problem
-This is the first analysis-ready c19 Hansard corpus with disambiguated speaker names. As described [in our research](), we use mixed methods (algorithmic and qualitative) to disambiguate speaker names, and we arrive at about an ~85% disambiguation rate. If, while using our data set, you find a reason to critique our disambiguated speaker names field, we would appreciate you sharing this with us! You can write an [issue](https://github.com/stephbuon/hansard-speakers/issues) on our [hansard-speakers](https://github.com/stephbuon/hansard-speakers) repository. 
+This is the first analysis-ready c19 Hansard corpus with disambiguated speaker names. As described [in our research](), we use mixed methods (algorithmic and qualitative) to disambiguate speaker names, and we arrive at about an approximate 85% disambiguation rate. If, while using our data set, you find a bug we would appreciate you sharing it with us! You can write an [issue](https://github.com/stephbuon/hansard-speakers/issues) on our [hansard-speakers](https://github.com/stephbuon/hansard-speakers) repository. 
 
 ### Citation
 
