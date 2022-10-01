@@ -1,11 +1,10 @@
-quiet <- function(x) {
-  sink(tempfile())
-  on.exit(sink())
-  invisible(force(x))
-}
-
-
 .onLoad <- function(libname, pkgname) {
+
+  quiet <- function(x) {
+    sink(tempfile())
+    on.exit(sink())
+    invisible(force(x))
+  }
 
   hansardr_path <- paste0(.libPaths(), "/hansardr/")[1]
   if(file.exists(paste0(hansardr_path, "data/"))) { invisible()
