@@ -8,13 +8,13 @@ For supplementary materials meant to support the analysis of the Hansard debates
 
 ## Installation
 
-### Install from CRAN:
+#### Install from CRAN:
 
 ```
 install.packages("hansardr")
 ```
 
-### Install from GitHub:
+#### Install from GitHub:
 
 ```
 require(devtools)
