@@ -7,4 +7,6 @@ man_correct_href
 uncompressed_RDS_files/
 generate_and_compress_data.R
 data/
-hansardr_0.0.0.9000.tar.gz
+
+# archives
+*.gz 
