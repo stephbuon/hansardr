@@ -17,7 +17,8 @@ install.packages("hansardr")
 #### Install from GitHub:
 
 ```
-require(devtools)
+# install.packages("devtools")
+library(devtools)
 install_github("stephbuon/hansardr")
 ```
 Now the package can be imported as usual:
