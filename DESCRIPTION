@@ -10,7 +10,7 @@ Imports:
     utils
 URL: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FZCYJH8&version=DRAFT
 BugReports: https://github.com/stephbuon/hansardr
-Description: hansardr provides decade subsets of the 19th-century British Parliamentary debates, also known as Hansard. 
+Description: Read cleaned, decade subsets of the 19th-century British Parliamentary debates, also known as Hansard. 
     The data was scrapped from UK Parliament's historic Hansard API and underwent corrections 
     for systemic issues which had caused some debates to be marked as "missing" from 
     the corpus. Speaker names were disambiguated using pairwise matching and distance measurements. 

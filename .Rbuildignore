@@ -1,4 +1,5 @@
 ^hansardr\.Rproj$
 ^\.Rproj\.user$
-^data/.+$
 ^man_correct_href$
+LICENSE.md
+README.md
