@@ -33,9 +33,9 @@
 #' data(speaker_metadata_1890)
 #'
 #' @references Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo (2021) 
-#' (\href{https://doi.org/10.7910/DVN/ZCYJH8})
+#' (\\href{https://doi.org/10.7910/DVN/ZCYJH8})
 #'
-#' @source \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
+#' @source \\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
 #'
 "speaker_metadata_1890"
 

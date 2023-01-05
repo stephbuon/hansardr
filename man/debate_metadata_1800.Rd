@@ -5,16 +5,7 @@
 \alias{debate_metadata_1800}
 \title{The 19th-century British Parliamentary debates metadata for the decade 1800}
 \format{
-A data frame with 82306 rows and 3 variables:
-
-sentence_id
-A unique ID assigned to each sentence of the corpus, taken from the digitized parliamentary debates.
-
-speechdate
-The date on which the sentence was spoken in year, month, day format.
-
-debate
-The title of the debate.
+An object of class \code{grouped_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 10 rows and 4 columns.
 }
 \source{
 \\href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZCYJH8}{Harvard Dataverse}
@@ -25,10 +16,6 @@ debate_metadata_1800
 \description{
 The Hansard corpus debate metadata retains information about the debates such as the debate title and the speech date.
 The variables are as follows:
-}
-\examples{
-data(debate_metadata_1800)
-
 }
 \references{
 Buongiorno, Steph; Kalescky, Robert; Godat, Eric; Cerpa, Omar Alexander; Guldi, Jo (2021)
