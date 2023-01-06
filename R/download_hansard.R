@@ -39,9 +39,7 @@ download_hansard <- function() {
         file.move(paste0(hansardr_path, "uncompressed_data/data/", file), to) }
       
       unlink(paste0(hansardr_path, "hansardr_data.zip"))
-      unlink(paste0(hansardr_path, "uncompressed_data"), recursive = TRUE)
-      
-    },
+      unlink(paste0(hansardr_path, "uncompressed_data"), recursive = TRUE) },
     
     warning = function(cond) {
       print("The c19 Hansard data cannot be downloaded. Please open a GitHub Issue if this problem persists.")
