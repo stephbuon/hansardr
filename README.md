@@ -26,6 +26,10 @@ Now the package can be imported as usual:
 library(hansardr)
 ```
 
+## Accessing the Corpus
+
+hansardr comes with a sample data set of 10 rows per decade subset. To download the full corpus, use `download_hansard()`. The samples will be replaced with data for the entire century. 
+
 ## Contents
 
 The Hansard corpus is subsetted by decade. Each decade has four types of data, labeled: "hansard," "debate_metadata," "speaker_metadata," and "file_metadata." In the following table, "YYYY" stands in for any given decade.
@@ -45,7 +49,19 @@ The Hansard corpus is subsetted by decade. Each decade has four types of data, l
 
 ## Usage
 
-Use `data()` to load files into the R environment.
+Load hansardr.
+
+```
+library(hansardr)
+```
+
+Download the entire corpus. This will only need to be done once. 
+
+```
+download_hansard()
+```
+
+Read files into the R environment.
 
 ```
 data("hansard_1880")
