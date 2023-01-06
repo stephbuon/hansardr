@@ -12,7 +12,7 @@ download_hansard <- function() {
   
   print("This replaces the sample data with the full c19 Hansard corpus. Do you wish to continue?")
   print("Press 1 to download.")
-  print("Press 2 to pass.")
+  print("Press 2 to skip download.")
   
   input <- readline(prompt="Select Option: ")
   
@@ -26,27 +26,26 @@ download_hansard <- function() {
       if(file.info(paste0(hansardr_path, "debate_metadata_1800.RData"))$size > 900) {
         remove_samples(hansardr_path) } }
     
-    tryCatch({
-      download.file(url, fname, mode = "wb")
+    tryCatch(
+      expr = {
+        download.file(url, fname, mode = "wb")
+        zip_file <- paste0(hansardr_path, "hansardr_data.zip")
+        unzip(zip_file, exdir = paste0(hansardr_path, "uncompressed_data"))
+        
+        hansard_subset <- list.files(paste0(hansardr_path, "uncompressed_data/data/"))
+        to <- paste0(hansardr_path, "data/")
+        
+        for(file in hansard_subset) {
+          file.move(paste0(hansardr_path, "uncompressed_data/data/", file), to) }
+        
+        unlink(paste0(hansardr_path, "hansardr_data.zip"))
+        unlink(paste0(hansardr_path, "uncompressed_data"), recursive = TRUE) },
       
-      zip_file <- paste0(hansardr_path, "hansardr_data.zip")
-      unzip(zip_file, exdir = paste0(hansardr_path, "uncompressed_data"))
-      
-      hansard_subset <- list.files(paste0(hansardr_path, "uncompressed_data/data/"))
-      to <- paste0(hansardr_path, "data/")
-      
-      for(file in hansard_subset) {
-        file.move(paste0(hansardr_path, "uncompressed_data/data/", file), to) }
-      
-      unlink(paste0(hansardr_path, "hansardr_data.zip"))
-      unlink(paste0(hansardr_path, "uncompressed_data"), recursive = TRUE) },
-    
-    warning = function(cond) {
-      print("The c19 Hansard data cannot be downloaded. Please open a GitHub Issue if this problem persists.")
-      print("https://github.com/stephbuon/hansardr/issues") } ) }
+      error = function(e) {
+        print("The c19 Hansard data cannot be downloaded. Please open a GitHub Issue if this problem persists.")
+        print("https://github.com/stephbuon/hansardr/issues") } ) }
   
   else if (input == 2 ) { 
-    invisible() } else {
-      print("Not a valid option. Exiting.") }
-    
-    } 
+    invisible() } 
+  else {
+      print("Not a valid option. Exiting.") } } 
