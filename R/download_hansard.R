@@ -12,7 +12,7 @@ download_hansard <- function() {
   
   print("This replaces the sample data with the full c19 Hansard corpus. Do you wish to continue?")
   print("Press 1 to download.")
-  print("Press 2 to skip download.")
+  print("Press 2 to exit.")
   
   input <- readline(prompt="Select Option: ")
   
