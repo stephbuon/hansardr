@@ -44,7 +44,9 @@ download_hansard <- function() {
     warning = function(cond) {
       print("The c19 Hansard data cannot be downloaded. Please open a GitHub Issue if this problem persists.")
       print("https://github.com/stephbuon/hansardr/issues") } ) }
+  
+  else if (input == 2 ) { 
+    invisible() } else {
+      print("Not a valid option. Exiting.") }
     
-    } else if (input == 2 ) { 
-      invisible() } else {
-        print("Not a valid option. Exiting.") }
+    } 
