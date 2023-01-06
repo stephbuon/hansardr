@@ -32,12 +32,14 @@ download_hansard <- function() {
       zip_file <- paste0(hansardr_path, "hansardr_data.zip")
       unzip(zip_file, exdir = paste0(hansardr_path, "uncompressed_data"))
       
-      from <- paste0(hansardr_path, "uncompressed_data/data/")
+      hansard_subset <- list.files(paste0(hansardr_path, "uncompressed_data/data/"))
       to <- paste0(hansardr_path, "data/")
       
-      quiet(file.move(from, to))
-      quiet(file.remove(paste0(hansardr_path, "hansardr_data.zip")))
-      quiet(file.remove(paste0(hansardr_path, "uncompressed_data"))) 
+      for(file in hansard_subset) {
+        file.move(paste0(hansardr_path, "uncompressed_data/data/", file), to) }
+      
+      unlink(paste0(hansardr_path, "hansardr_data.zip"))
+      unlink(paste0(hansardr_path, "uncompressed_data"), recursive = TRUE)
       
     },
     
