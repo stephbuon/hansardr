@@ -10,6 +10,3 @@
 \description{
   Read cleaned, decade subsets of the 19th-century British Parliamentary debates, also known as Hansard.
 }
-\examples{
-  download_hansard()
-}

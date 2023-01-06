@@ -12,7 +12,7 @@ download_hansard <- function() {
   hansardr_path <- paste0(.libPaths(), "/hansardr/")[1]
 
   url <- "https://smu.box.com/shared/static/34sxstotmquq2ud81r449nomlm0fcplp"
-  fname <- paste0(hansardr_path, "data.zip")
+  fname <- paste0(hansardr_path, "hansardr_data.zip")
   
   if(file.exists(paste0(hansardr_path, "debate_metadata_1800.RData"))) { 
     if(file.info(paste0(hansardr_path, "debate_metadata_1800.RData"))$size > 900) {
@@ -21,15 +21,17 @@ download_hansard <- function() {
   tryCatch({
     download.file(url, fname, mode = "wb")
       
-    zip_file <- paste0(hansardr_path, "data.zip")
+    zip_file <- paste0(hansardr_path, "hansardr_data.zip")
     unzip(zip_file, exdir = paste0(hansardr_path, "uncompressed_data"))
       
     from <- paste0(hansardr_path, "uncompressed_data/data/")
     to <- paste0(hansardr_path, "data/")
       
     quiet(file.move(from, to))
-    quiet(file.remove(paste0(hansardr_path, "data.zip")))
-    quiet(file.remove(paste0(hansardr_path, "uncompressed_data"))) },
+    quiet(file.remove(paste0(hansardr_path, "hansardr_data.zip")))
+    quiet(file.remove(paste0(hansardr_path, "uncompressed_data"))) 
+    
+    },
       
     warning = function(cond) {
       print("The c19 Hansard data cannot be downloaded. Please open a GitHub Issue if this problem persists.")
