@@ -10,7 +10,7 @@ quiet <- function(x) {
 #' @export
 download_hansard <- function() {
   
-  print("This replaces the sample data with the full c19 Hansard corpus. Do you wish to continue?")
+  print("Replace the sample data with the full c19 Hansard corpus?")
   print("Press 1 to download.")
   print("Press 2 to exit.")
   
