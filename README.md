@@ -8,18 +8,8 @@ For supplementary materials meant to support the analysis of the Hansard debates
 
 ## Installation
 
-#### Install from CRAN:
-
 ```
-install.packages("hansardr")
-```
-
-#### Install from GitHub:
-
-```
-# install.packages("devtools")
-library(devtools)
-install_github("stephbuon/hansardr")
+source("https://raw.githubusercontent.com/stephbuon/hansardr/main/tools/install_hansardr.R")
 ```
 Now the package can be imported as usual:
 ```
