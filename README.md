@@ -9,7 +9,7 @@ For supplementary materials meant to support the analysis of the Hansard debates
 ## Installation
 
 ```
-source("https://raw.githubusercontent.com/stephbuon/hansardr/main/tools/install_hansardr.R")
+source("https://raw.githubusercontent.com/stephbuon/hansardr/master/tools/install_hansardr.R")
 ```
 Now the package can be imported as usual:
 ```
