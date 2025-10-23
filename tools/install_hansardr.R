@@ -12,6 +12,6 @@ Sys.setenv(CURL_TIMEOUT = "1800")
 
 # 4. Install hansardr from GitHub
 remotes::install_github(
-  "stephbuon/hansardr",
+  "Democracy-Lab/hansardr",
   dependencies = TRUE,
   upgrade = "never")
